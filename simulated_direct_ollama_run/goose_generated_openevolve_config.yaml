@@ -1,0 +1,8 @@
+database:
+  population_size: 50
+evaluator:
+  enable_artifacts: true
+llm:
+  api_base: http://localhost:11434/v1
+  primary_model: codellama:7b-instruct
+max_iterations: 3
